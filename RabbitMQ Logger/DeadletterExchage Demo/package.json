@@ -1,0 +1,20 @@
+{
+  "name": "deadletterexchage-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "node-crontab": "^0.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

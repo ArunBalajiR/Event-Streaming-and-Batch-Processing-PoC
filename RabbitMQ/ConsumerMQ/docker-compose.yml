@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  mqconsumer:
+    image: mqconsumer
+    container_name: consumerimg
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: development
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/usr/src/app:ro
+      - /app/node_modules
+    env_file:
+      - ./.env
+    command: npm run dev
