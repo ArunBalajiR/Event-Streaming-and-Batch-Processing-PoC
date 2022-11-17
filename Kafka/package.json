@@ -1,0 +1,21 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.7.6",
+    "express": "^4.18.2",
+    "kafka-node": "^5.0.0",
+    "kafkajs": "^2.2.2",
+    "moment": "^2.29.4",
+    "random-word-slugs": "^0.1.6"
+  }
+}
